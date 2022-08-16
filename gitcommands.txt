@@ -19,3 +19,24 @@ author,date,commit message.
 git diff --cached- this command is used to show all the staged changes, the needed to be commited.
 -->:wq- to leave vim editor
 git status: shows the latest changes done to the directory.
+
+------------------------------------------
+
+git pull : git pull is a combination of two commands git fetch and git merge.
+git pull internally does these two operations.
+git pull is used to reflect the changes made in the remote repository to the local repository.
+----------------------------------------------
+
+git branch: Branch      user2--->v3.1--->v3.2
+                         |                |changes done by user2 are merged to main branch
+			 V                V 
+main branch =v1--->v2--->v3--->v4--->v5--->v6
+                  ^                 ^
+		  |                 | changes done by user1 are merged to main branch
+		    user1--->v2.1--->v2.2
+
+----------------------------------------------------
+
+
+
+
