@@ -9,7 +9,13 @@ git add- used to stage the files to the main public repository. it will only sta
 we can use 'git add .' to commit all the files in the main repository.
 or 'git add <file name>' to stage a specific file.
 git commit: to save the added or staged files in the repository.
+--it is necessary to provide a commit message.
 git push: to make the content in the local repository visible in the shared repository.
+git log- this command displays all of the commints in a repository's history.
+git log provides info like: SHA: secured hash algorithm(number)
+author,date,commit message.
+---git log oneline-gives one commit per line, first 7 characters of SHA, commit message.
+
 git diff --cached- this command is used to show all the staged changes, the needed to be commited.
-:wq- to leave vim editor
+-->:wq- to leave vim editor
 git status: shows the latest changes done to the directory.
