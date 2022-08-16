@@ -1,0 +1,15 @@
+--Vim- command is used to open new editor and also to create new file and open it in the editor.
+pwd- provides the path for current directory.
+I-is used in the vim editor to edit the content.
+esc- is to come out of the edit mode in the vim editor.
+git diff- is used to shows only the unstaged changes.
+cat- is used to concat information or display it on the screen.
+ls- to list the data in the directory.
+git add- used to stage the files to the main public repository. it will only stage the changes but not commit them.
+we can use 'git add .' to commit all the files in the main repository.
+or 'git add <file name>' to stage a specific file.
+git commit: to save the added or staged files in the repository.
+git push: to make the content in the local repository visible in the shared repository.
+git diff --cached- this command is used to show all the staged changes, the needed to be commited.
+:wq- to leave vim editor
+git status: shows the latest changes done to the directory.
