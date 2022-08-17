@@ -1,6 +1,13 @@
 Making changes to new-feature branch.
+<<<<<<< HEAD
 
 New change --added branch git-conflicts,logged in as git-conflicts branch making changes to file.txt in the main branch.
 logged in as branch- new-feature. making changes to file.txt which belongs to main branch.
 logged in as branch git-conflicts, adding new content to file.txt.
 
+=======
+New change --added branch git-conflicts,logged in as git-conflicts branch making changes to file.txt in the main branch.
+logged in as branch- new-feature. making changes to file.txt which belongs to main branch.
+
+logged in as branch git-conflicts, adding new content to file.txt.
+>>>>>>> git-conflicts
