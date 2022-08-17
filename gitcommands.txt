@@ -41,7 +41,9 @@ this command is used to create a new branch if the brach is not already created.
 git checkout -- is used to check on which branch we are currently in.
 git switch--this command is used to switch between branches.
 git branch -r--displays the list of branches availiable.
-
+git merge- it is used to merge the data in child branch to the main branch.
+git rebase-
+git conflict- conflict occurs during merging of child branch to the main branch,if the same file in child branch and main branch have different data, git will not able to determine which change to merge and will thrown and exception. 
 
 
 
