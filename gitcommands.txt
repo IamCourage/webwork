@@ -41,7 +41,9 @@ this command is used to create a new branch if the brach is not already created.
 git checkout -- is used to check on which branch we are currently in.
 git switch--this command is used to switch between branches.
 git branch -r--displays the list of branches availiable.
-
-
+git merge-is used to merge one branch into another.git merge performs an internal commit operation.
+git rebase-
+git conflict
+git pull request
 
 
