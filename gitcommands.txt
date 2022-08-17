@@ -36,6 +36,11 @@ main branch =v1--->v2--->v3--->v4--->v5--->v6
 		    user1--->v2.1--->v2.2
 
 ----------------------------------------------------
+git checkout -b <name of the branch>
+this command is used to create a new branch if the brach is not already created.
+git checkout -- is used to check on which branch we are currently in.
+git switch--this command is used to switch between branches.
+git branch -r--displays the list of branches availiable.
 
 
 
