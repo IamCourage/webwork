@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact details.</title>
+    </head>
+    <body>
+        <dl>
+            <dt>Address:</dt>
+            <em><dd>Earth</dd></em>
+            <dt>Ring me at!:</dt>
+            <em><dd>777</dd></em>
+            <dt>mail id:</dt>
+            <dd><em>essentric@human.com</em></dd>
+        </dl>
+        <hr>
+        <p>For immediate contact provide your information below.</p>
+        <form action="mailto:swethakesaraju7@gmail.com">
+            <label>Your Name:</label>
+            <input type="text" name="fname" value="">
+            <br><br>
+            <label>Your Email:</label>
+            <input type="text" name="email"
+            placeholder="example@gmail.com"><br><br>
+            <label>Your message:</label><br>
+            <textarea name="text" rows="5" cols="33"></textarea><br><br>
+            <input type="range" name="level of urgency"
+            id="level" min="1" max="5" value="1">
+            <label>Level of Urgency</label>
+            <br><br>
+            <p>Would you like to receive news letters:</p>
+            <input type="radio" name="answer" value="Yes">
+            <label>Yes</label>
+            <input type="radio" name="answer" value="No">
+            <label>No</label>
+            <!-- without a name they're not really part of the form and their value won't be sent when submitting the form. The name is used by the browser to set "groups" of radio buttons, only one radio button in each group can be selected at one time and selecting other will clear the previous selection.-->
+            <br><br>
+           <input type="button" name="button" value="Submit">
+        </form>
+    </body>
+</html>
